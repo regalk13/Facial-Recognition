@@ -33,7 +33,7 @@ while True:
 
         offset = 5
         face_offset = frame[y-offset:y+h+offset,x-offset:x+w+offset]
-        face_selection = cv2.resize[face_offset,(100,100)]
+        face_selection = cv2.resize(face_offset,(100,100))
 
         if skip % 10 == 0:
             face_data.append(face_selection)
