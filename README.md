@@ -1,4 +1,4 @@
-# Facial-Recognition
+# Facial Recognition
 ## _Python Facial Recognition_
 
 This is a Python facial recognition, use Opencv and numpy to collect data, use it but read the instructions first.
