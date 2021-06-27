@@ -26,9 +26,9 @@ def knn(train, test, k=5):
     return output[0][index]
 
 cap = cv2.VideoCapture(0)
-face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_alt.xml")
+face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_alt.xml") ## Taking the instructions from opencv
 
-dataset_path = "./face_dataset/"
+dataset_path = "./face_dataset/" ## Path to get the face data
 
 face_data = []
 labels = []
